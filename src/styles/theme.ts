@@ -3,6 +3,11 @@ import { extendTheme } from '@chakra-ui/react';
 export const theme = extendTheme({
   components: {
     Text: {
+      defaultProps: {
+        sizes: 'md',
+        variants: 'regular',
+        colors: 'light.white',
+      },
       sizes: {
         xsm: {
           fontSize: '16px',
