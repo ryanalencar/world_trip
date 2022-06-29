@@ -5,6 +5,8 @@ export default function Banner() {
     <Container
       bgImage="url('/images/banner_home.jpg')"
       bgRepeat="no-repeat"
+      bgSize="contain"
+      w="100%"
       maxW="100%"
       h="368px">
       <Flex

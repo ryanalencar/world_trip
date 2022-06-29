@@ -1,19 +1,19 @@
 import { Image, Text, VStack } from '@chakra-ui/react';
 
-interface ITravelTypesItem {
-  icon: string;
+export interface ITravelTypesItem {
+  iconPath: string;
   altIcon: string;
   title: string;
 }
 
 export default function TravelTypesItem({
-  icon,
+  iconPath,
   altIcon,
   title,
 }: ITravelTypesItem) {
   return (
     <VStack justify="center" align="center" spacing={5}>
-      <Image src={icon} alt={altIcon} />
+      <Image w={85} h={85} src={iconPath} alt={altIcon} />
       <Text variant="semibold" color="dark.heading">
         {title}
       </Text>

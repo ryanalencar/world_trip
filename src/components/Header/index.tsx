@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <Center as="header" height="100px">
+    <Center as="header" w="100%" h="100px">
       <Image
         src="/world_trip_logo.svg"
         alt="Worldtrip Logo"
