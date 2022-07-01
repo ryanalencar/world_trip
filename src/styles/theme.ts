@@ -43,8 +43,8 @@ export const theme = extendTheme({
   },
   colors: {
     yellow: {
-      100: '#FFBA0880',
-      500: '#FFBA08',
+      highlight50: '#FFBA0880',
+      highlight: '#FFBA08',
     },
     dark: {
       info50: '#99999980',
