@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="world_trip" src="https://raw.githubusercontent.com/ryanalencar/world_trip/b3c4061b7fed4092363d0c430e60738ff642a994/public/world_trip_logo.svg" />
-  <h1 align="center">Welcome to world_trip 👋</h1>
+  <h1 align="center">Welcome to world-trip 👋</h1>
 </div>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
@@ -12,7 +12,7 @@
   </a>
 </p>
 
-### ✨ [Demo](https://world_trip-ryanalencar.vercel.app/)
+### ✨ [Demo](https://world-trip-ryanalencar.vercel.app/)
 
 ## About the project
 A landing page for a world trip website built with ChakraUI based on a Figma design 
