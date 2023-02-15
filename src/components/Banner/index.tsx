@@ -5,7 +5,7 @@ export default function Banner() {
     <Container
       bgImage="url('/images/banner_home.jpg')"
       bgRepeat="no-repeat"
-      bgSize="contain"
+      bgSize="cover"
       w="100%"
       maxW="100%"
       h="368px">
